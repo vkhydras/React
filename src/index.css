@@ -1,0 +1,51 @@
+body{
+  margin: 0;
+  color: white;
+  font-family: Inter , san-serif;
+  background-color: #282D35;
+}
+img{
+  height: 80px;
+  margin-right: 7px;
+}
+nav{
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  height: 90px;
+  justify-content: space-between;
+}
+h3{
+  margin-right: auto;
+  color: #61DAFB;
+  font-weight: 700px;
+  font-size: 22px;
+}
+h4{
+  color: #DEEBF8;
+  font-weight: 600;
+}
+li::marker{
+  color: #61DAFB;
+  font-size: 1.4rem;
+}
+li{
+  padding-block: 10px;
+  line-height: 19px;
+ 
+}
+ul{
+  max-width: 340px;
+}
+main{
+  padding: 57px 27px;
+  background: url(./img/logo192.png) no-repeat right 75% ;
+ 
+}
+h1{
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05rem;
+  font-weight: bold;
+  font-style: normal;
+}
